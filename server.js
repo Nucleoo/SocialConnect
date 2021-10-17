@@ -12,10 +12,6 @@ connectDB();
 // Init Middleware
 app.use(express.json({ extended: false }));  // Similar as body parser
 
-// Routes
-app.get('/', (req, res) => res.send('Server Running'));
-
-
 //Define Routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));
