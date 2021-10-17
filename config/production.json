@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://Rx05:RxIshot@cluster0.yjdgr.mongodb.net/Database?retryWrites=true&w=majority",
+    "jwtSecret": "jwToken@qwertyuiop",
+    "githubClientId": "4d145bb36243fa2bf208",
+    "githubSecret": "22af2e62a229f18bc28ec8e56e2e88483f84b75c"
+}
